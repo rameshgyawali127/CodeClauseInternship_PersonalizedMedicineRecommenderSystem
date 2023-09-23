@@ -1,5 +1,5 @@
-#AIM : To Build Personalized-Medicine-Recommender-System
-### AURTHOR -> RAMESH GYAWALI
+##AIM : To Build Personalized-Medicine-Recommender-System
+## AURTHOR -> RAMESH GYAWALI
 
 Objective :
     The objective of this code is to create a graphical user interface (GUI) application for recommending medicines based on text data. It leverages natural 
