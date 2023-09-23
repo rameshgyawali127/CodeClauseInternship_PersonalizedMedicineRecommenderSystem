@@ -30,7 +30,6 @@ The algorithms used in this Recommender-System are :
      The top 5 most similar medicines (excluding the input medicine itself) are recommended based on these scores.
 
 Summary:
-
     The code begins by importing necessary libraries, including NumPy, Pandas, Tkinter (for GUI), NLTK (Natural Language Toolkit), and scikit-learn modules.
     It loads a dataset from a CSV file called 'medicine.csv' and drops rows with missing values which i took from Kaggle.
     Text data in the 'Reason' and 'Description' columns is tokenized, preprocessed, and combined into a single 'tags' column.
