@@ -1,5 +1,13 @@
-# Personalized-Medicine-Recommender-System
+#AIM : To Build Personalized-Medicine-Recommender-System
 ### AURTHOR -> RAMESH GYAWALI
+
+Objective :
+    The objective of this code is to create a graphical user interface (GUI) application for recommending medicines based on text data. It leverages natural 
+    language processing (NLP) and machine learning techniques to provide recommendations to users. The code reads a dataset of medicines from a CSV file, 
+    preprocesses the text data, computes cosine similarity between medicines based on their descriptions and reasons, and allows users to input a medicine name in 
+    the GUI to get recommendations for similar medicines.
+
+    
 The algorithms used in this Recommender-System are :
 1. Feature Extraction:
 
@@ -20,13 +28,6 @@ The algorithms used in this Recommender-System are :
      It calculates the similarity scores (distances) between the input medicine and all other medicines in the dataset.
      It then sorts the medicines based on their similarity scores in descending order.
      The top 5 most similar medicines (excluding the input medicine itself) are recommended based on these scores.
-
-
-Objective :
-    The objective of this code is to create a graphical user interface (GUI) application for recommending medicines based on text data. It leverages natural 
-    language processing (NLP) and machine learning techniques to provide recommendations to users. The code reads a dataset of medicines from a CSV file, 
-    preprocesses the text data, computes cosine similarity between medicines based on their descriptions and reasons, and allows users to input a medicine name in 
-    the GUI to get recommendations for similar medicines.
 
 Summary:
 
