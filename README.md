@@ -1,14 +1,14 @@
 ## AIM : To Build Personalized-Medicine-Recommender-System
 ## AURTHOR -> RAMESH GYAWALI
 
-Objective:
+## Objective:
     The objective of this code is to create a graphical user interface (GUI) application for recommending medicines based on text data. It leverages natural 
     language processing (NLP) and machine learning techniques to provide recommendations to users. The code reads a dataset of medicines from a CSV file, 
     preprocesses the text data, computes cosine similarity between medicines based on their descriptions and reasons, and allows users to input a medicine name in 
     the GUI to get recommendations for similar medicines.
 
     
-The algorithms used in this Recommender-System are :
+## The algorithms used in this Recommender-System are :
 1. Feature Extraction:
 
      The code uses the scikit-learn library's CountVectorizer to convert the preprocessed text data (medicine descriptions) into numerical vectors.
@@ -29,7 +29,7 @@ The algorithms used in this Recommender-System are :
      It then sorts the medicines based on their similarity scores in descending order.
      The top 5 most similar medicines (excluding the input medicine itself) are recommended based on these scores.
 
-Summary:
+## Summary:
     The code begins by importing necessary libraries, including NumPy, Pandas, Tkinter (for GUI), NLTK (Natural Language Toolkit), and scikit-learn modules.
     It loads a dataset from a CSV file called 'medicine.csv' and drops rows with missing values which i took from Kaggle.
     Text data in the 'Reason' and 'Description' columns is tokenized, preprocessed, and combined into a single 'tags' column.
