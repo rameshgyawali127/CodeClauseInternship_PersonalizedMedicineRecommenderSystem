@@ -1,7 +1,7 @@
 ## AIM : To Build Personalized-Medicine-Recommender-System
 ## AURTHOR -> RAMESH GYAWALI
 
-Objective :
+Objective:
     The objective of this code is to create a graphical user interface (GUI) application for recommending medicines based on text data. It leverages natural 
     language processing (NLP) and machine learning techniques to provide recommendations to users. The code reads a dataset of medicines from a CSV file, 
     preprocesses the text data, computes cosine similarity between medicines based on their descriptions and reasons, and allows users to input a medicine name in 
