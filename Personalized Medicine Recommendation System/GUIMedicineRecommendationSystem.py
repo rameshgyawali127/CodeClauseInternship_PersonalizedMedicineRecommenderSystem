@@ -21,7 +21,7 @@ df.dropna(inplace=True)
 # Tokenize and preprocess text data
 df['Reason'] = df['Reason'].apply(lambda x: x.split())
 df['Description'] = df['Description'].apply(lambda x: x.split())
-df['Description'] = df['Description'].apply(lambda x: [i.replace(" ", "") for i in x])
+df['Description'] = df['Description'].apply(lambda x: [i.replace(" ", "") for i in x])#if descriptionn had a word like "anti inflammatory, it would be transformed into "antiinflammatory.
 df['tags'] = df['Description'] + df['Reason']
 
 # Combine tokens into a single string
